@@ -1,0 +1,172 @@
+/* Add here all your CSS customizations */
+
+/*rector lists*/
+.rector-detail{
+	border-top:3px solid orange;
+	border-bottom:3px solid orange;
+	height: 200px;
+}
+.rector-detail1{
+	border-top:3px solid purple;
+	border-bottom:3px solid purple;
+	height: 200px;
+}
+.rector-wrap ol{
+	padding: 10px;
+}
+.rector-wrap p{
+	text-align: justify;
+}
+.rector-wrap a{
+	float: right;
+	padding: 5px;
+	font-size: 13px;
+}
+.biology-page{
+	padding-top: 50px;
+}
+.rdetails th, .rdetails td{
+	text-align: center;
+}
+
+/*contact*/
+
+.map-canvas{
+	max-height: 400px;
+}
+.contact-label{
+	color: #fff;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	left: 0;
+	text-align: center;
+	margin-bottom: 15px;
+	position: relative;
+	transform: translateY(-13px); -webkit-transform: translateY(-13px); -moz-transform: translateY(-13px); -ms-transform: translateY(-13px); -o-transform: translateY(-13px);
+	width:auto;
+}
+.contact-label::after {
+	border-right: 10px solid #646464;
+	border-top: 13px solid transparent;
+	content: "";
+	left: -10px;
+	position: absolute;
+}
+.visit{
+	padding: 5%;
+}
+/* post details */
+.post-pagination{
+	margin-top: 30px;
+	margin-left: 150px;
+}
+/*library*/
+.library ul li{
+	list-style: decimal;
+	line-height: 2.5em;
+}
+#rule h5{
+	margin-top: 20px;
+}
+
+/*syllabus*/
+.item-panel{
+	width: 32%;
+	background: gold;
+	padding: 5px;
+	text-align: center;
+	margin: 1px;
+}
+
+.item-panel li{
+	list-style: none;
+	height: 40px;
+	cursor: pointer;
+	line-height: 40px;
+}
+
+.item-panel li:hover{
+	font-weight: bold;
+	color: blue;
+}
+
+#panel-2,#panel-3,#panel-4,#panel-5,#panel-6,#panel-7,#panel-8,#panel-9{
+	display: none;
+}
+/*research*/
+.tree, .tree ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.tree ul {
+	margin-left:1.8em;
+	position:relative;
+}
+.tree ul ul {
+	margin-left:.5em;
+}
+.tree ul:before {
+	content:"";
+	display:block;
+	width:0;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	border-left:1px solid;
+}
+.tree li {
+	margin:0;
+	padding:0 1em;
+	line-height:3em;
+	position:relative;
+}
+.tree ul li:before {
+	content:"";
+	display:block;
+	width:10px;
+	height:0;
+	border-top:1px solid;
+	margin-top:-1px;
+	position:absolute;
+	top:1.5em;
+	left:0;
+}
+.tree ul li:last-child:before {
+	background:#fff;
+	height:auto;
+	bottom:0;
+}
+.indicator {
+	margin-right:10px;
+	font-size: 10px;
+}
+.tree li a {
+	text-decoration: none;
+	color:#369;
+}
+.tree li button, .tree li button:active, .tree li button:focus {
+	text-decoration: none;
+	color:#369;
+	border:none;
+	background:transparent;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	outline: 0;
+}
+.research .title{
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+.research p{
+	font-size: 0.8em;
+	line-height: 1em;
+	font-style: italic;
+}
+.research i{
+	font-size: 100px;
+	color: grey;
+}
